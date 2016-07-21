@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="BookStoreEntities-Web.config Connection String" description="BookStoreEntities Connection String used in web.config by the application to access the database." defaultValue="metadata=res://*/ADO.BookStoreModel.csdl|res://*/ADO.BookStoreModel.ssdl|res://*/ADO.BookStoreModel.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=MILACACA;initial catalog=bookStore;integrated security=True;multipleactiveresultsets=True;application name=EntityFramework&quot;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Rinishoncho\\Documents\\Projects\\ASP\.NET\\Bookstore\\BookStore\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='BookStoreEntities']/@connectionString" />
+  </parameter>
+  <parameter name="DefaultConnection-Web.config Connection String" description="DefaultConnection Connection String used in web.config by the application to access the database." defaultValue="DefaultConnection_ConnectionString" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Rinishoncho\\Documents\\Projects\\ASP\.NET\\Bookstore\\BookStore\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+</parameters>
